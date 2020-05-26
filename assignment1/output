@@ -1,0 +1,23 @@
+Put in values
+Rows= 3
+,Cols = 3
+,CUDA_DEVICE= 0
+, THREADS =8 
+Currentl moving the data from the files to the allocated memory on the CPU 
+Reading data has been completed
+The time it took to read the data is 0.000829
+Currently allocating memory on the GPU for the data
+The time it took to allocate memory for the data is 0.348751
+The time it took to allocate memory for the weights is 0.000026
+time for cudamalloc for result =0.000017
+Currently copying the data to the allocated memory in GPU
+The time it took to copy the data to the GPU is 0.000068
+The time it took to copy the weights to the GPU is 0.000013
+The time it took for the kernel is 0.000232
+The dot product of the data and weights is 
+
+10.000000 
+6.000000 
+16.000000 
+
+The time it took to run the whole program is 0.280000
